@@ -6,7 +6,7 @@ deploy:
   function_name: isapi-alertas
   region: eu-west-1
   role: arn:aws:iam::021219440193:role/lambda_basic_execution
-  runtime: nodejs7
+  runtime: nodejs10.x
   handler_name: index.handler
   access_key_id:
     secure: yQJLSMBqEERoP+V1zPxToG7rFwE8CS2wG3HOPTTwsLW23M9cubK5QDNJas8fz6bQB0Hy+NMk6HKBJUFuxlT+PCMZ1KB23U/K5DwnGsoY/SmXo888bbUtFbtBDwWSKb23Cp6bQErvmv+Lkzmx6vZAxDUHTL1vHY36YniwKlfHhsGq1lciGAizjmtDTZzrJuQR4gTNq+PxJb63tA/W0Nf3DmYm9jOKJImc76nKewZb7zzbeYW9kjSfuvin0ITxdu3mLU/SVHyRegljo91gY691L98qAlfOrmXb4sb5I/Yvy+o8dX9imkr/rgbgnB7eDLbO7v8/ndFVkCHpFV2gEAKQbCoupCQU+7wkAYdeRwojJVKsAveO2iR+Yy4tQ4MWhDZ6UbRuru82hmf3aVMcHIgtFutx4wZ3KLC+X2qeN547aO1Gx87eLHglYFoo9OgCypZH9XQgnlN4SA6nUyTC5ZIeHolg0l8h5qAxgsB58pgAaoIGl9NzTFn2Tg1UDE4ssXQQN+piGwjHK09BXhRXv4YoIIDiOjKu1ITrpwCsMMbq+EJiso+pY0V5RcQtBY8jFUK/L67kVNjv8jkq4i2BJcWBp6wfi87ttyeJYKDy7/nNvnmLT0S+oFl0KbTdz89+lS8vmbk5h1VwfMBfn98SHgqvdqFBTFYKGchrgL0BclaAGfs=
