@@ -5,3 +5,5 @@ deploy:
   role: "arn:aws:iam::021219440193:role/lambda_basic_execution"
   runtime: "nodejs7"
   handler_name: "index.handler"
+  access_key_id: 
+  secret_access_key: 
