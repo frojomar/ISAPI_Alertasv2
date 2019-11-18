@@ -12,12 +12,3 @@ deploy:
     secure: yQJLSMBqEERoP+V1zPxToG7rFwE8CS2wG3HOPTTwsLW23M9cubK5QDNJas8fz6bQB0Hy+NMk6HKBJUFuxlT+PCMZ1KB23U/K5DwnGsoY/SmXo888bbUtFbtBDwWSKb23Cp6bQErvmv+Lkzmx6vZAxDUHTL1vHY36YniwKlfHhsGq1lciGAizjmtDTZzrJuQR4gTNq+PxJb63tA/W0Nf3DmYm9jOKJImc76nKewZb7zzbeYW9kjSfuvin0ITxdu3mLU/SVHyRegljo91gY691L98qAlfOrmXb4sb5I/Yvy+o8dX9imkr/rgbgnB7eDLbO7v8/ndFVkCHpFV2gEAKQbCoupCQU+7wkAYdeRwojJVKsAveO2iR+Yy4tQ4MWhDZ6UbRuru82hmf3aVMcHIgtFutx4wZ3KLC+X2qeN547aO1Gx87eLHglYFoo9OgCypZH9XQgnlN4SA6nUyTC5ZIeHolg0l8h5qAxgsB58pgAaoIGl9NzTFn2Tg1UDE4ssXQQN+piGwjHK09BXhRXv4YoIIDiOjKu1ITrpwCsMMbq+EJiso+pY0V5RcQtBY8jFUK/L67kVNjv8jkq4i2BJcWBp6wfi87ttyeJYKDy7/nNvnmLT0S+oFl0KbTdz89+lS8vmbk5h1VwfMBfn98SHgqvdqFBTFYKGchrgL0BclaAGfs=
   secret_access_key:
     secure: rjhBk21YgNnqPxKXv4vlELBffiFwvOueNWV5zUk99ZrKOEQCIW4xrcBFO/ApcI0E4C00ASpG2hLWNwxwNppyZZGi8muY5knhUjZ3vQnCwmPyblbenggqhaKfr6Imzc0US+WeqhSTJzoMvmQay95PIMOEZmR3G+LNffNA55MQU4pab7LaHcBT6lmKH/RRUrU5YOMwmK6AmszwcQmFK1VCMQ9Kcm1+B2FEzUHADPFy4GYsrEdiA1vGqGxbz+N02VAGFo0OjVmEQUQ1YVy0Qym6hoDrdvqf9DA8JCYKqthqsDGrlG2JPn4g1mjSK0iAxngL56bCK1p/NkIhnUYxDTAZC1v6WIDK/tyNtIS7QsrK7DO7pB66LsM3vAAJHcNmaKi5vmOwJ83gXKmJ53veuVyIF3YycFE0P19GGR9dlb03FhPfwJesukGnKc2xVsyoGp85YgrrJ3fuYMvhoKelD+FTU/sRRkCAGKB1nWlm4x3YsyK/1yL1m5/YHj68oeTbDd58llA5DKNRcaKdw//DNazZWBP9mJRNsChX1umyBF0WuXp7i0+YDNpuVsEiDO4EcHYGrTX/k2n99wumfkcC9ATz/AxsOP+LIo6O8Xi56t79X1xzAr2L8sx35KwxiG6HuDXK1o10+9nXY1zMxi/Nhkcwvgx3kxQpKH2FxuQ8KHqHyuU=
-  events: 
-    - http: 
-        path: /
-        method: ANY
-        cors: true
-    - http: 
-        path: /{proxy+}
-        method: ANY
-        cors: true
